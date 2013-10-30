@@ -37,7 +37,7 @@ public class SimpleListActivity extends ListActivity {
 That's all! In this example ListActivity will show thousand people. But what layout will be inflated as an list item element? The answer is "person.xml". Let's see on outline of person.xml and data inside class Person:
 <table width="100%">
 <tr>
-<td width="50%">
+<td>
 
 ```
 -LinearLayout
@@ -52,7 +52,7 @@ That's all! In this example ListActivity will show thousand people. But what lay
 ||-plus
 ```
 </td>
-<td width="50%">
+<td>
 
 ```java
 public class Person{
