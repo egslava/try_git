@@ -1,5 +1,8 @@
 try_git
 =======
+
+[TOC]
+
 Just a markdown example
 
 ```xml
@@ -9,3 +12,6 @@ Just a markdown example
 ```java
 Some.java(code);
 ```
+
+Header
+===
