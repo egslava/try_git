@@ -2,6 +2,7 @@ try_git
 =======
 
 [TOC]
+{:TOC}
 
 Just a markdown example
 
