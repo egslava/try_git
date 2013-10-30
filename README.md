@@ -18,6 +18,7 @@ Header
 ===
 Simple lists
 ======
+
 There're many situations, when you should render much amount of structured data. For instance, you might want to load from a server list of people. Let's see an example:
 
 ```java
@@ -37,8 +38,8 @@ public class SimpleListActivity extends ListActivity {
 That's all! In this example ListActivity will show thousand people. But what layout will be inflated as an list item element? The answer is "person.xml". Let's see on outline of person.xml and data inside class Person:
 
 <table width="100%">
-<tr>
-<td>
+	<tr>
+		<td>
 
 ```
 -LinearLayout
@@ -52,8 +53,9 @@ That's all! In this example ListActivity will show thousand people. But what lay
 ||-count
 ||-plus
 ```
-</td>
-<td>
+
+		</td>
+		<td>
 
 ```java
 public class Person{
@@ -65,8 +67,8 @@ public class Person{
 	...
 }
 ```
-</td>
-</tr>
+		</td>
+	</tr>
 </table>
 
 So, as you can see, the naming conventions for class and for xml are the same as for [simple mapping](net-utils-samples-simple-mapping).
